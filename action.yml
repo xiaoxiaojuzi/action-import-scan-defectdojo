@@ -38,5 +38,5 @@ runs:
     - ${{ inputs.scan-type }}
     - ${{ inputs.file }}
 branding:
-  icon: 'git-commit'
+  icon: 'dojo'
   color: 'green'
