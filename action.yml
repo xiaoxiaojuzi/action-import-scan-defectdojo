@@ -1,4 +1,4 @@
-name: 'DefectDojo import scan'
+name: 'DefectDojo import scan report'
 description: 'django-DefectDojo import a scan report into an engagement or product.'
 inputs:
   destination_url:
@@ -38,5 +38,5 @@ runs:
     - ${{ inputs.scan-type }}
     - ${{ inputs.file }}
 branding:
-  icon: 'dojo'
+  icon: 'target'
   color: 'green'
